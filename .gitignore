@@ -1,0 +1,6 @@
+*.lock
+# vim's tmp files
+*.swp
+*.swo
+public/
+resources/_gen/
