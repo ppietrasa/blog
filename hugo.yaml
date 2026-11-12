@@ -9,3 +9,11 @@ params:
 buildDrafts: false
 buildFuture: true
 buildExpired: true
+
+module:
+  mounts:
+  - source: content
+    target: content
+  - source: /home/piotr/notes/home/Output/Blog
+    target: content/posts
+
