@@ -1,0 +1,7 @@
+baseURL: https://blog.pietrasy.org/
+locale: 'en-us'
+title: Piotr's Place
+theme: PaperMod
+params:
+  author: Piotr Pietraszkiewicz
+  email: ppietrasa@gmail.com
