@@ -1,7 +1,7 @@
 ---
 title: "Search"
 layout: "search" # necessary for search
-url: "/archive"
+#url: "/archive"
 summary: "search"
 placeholder: "search posts..."
 ---
