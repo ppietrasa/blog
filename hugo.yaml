@@ -5,3 +5,7 @@ theme: PaperMod
 params:
   author: Piotr Pietraszkiewicz
   email: ppietrasa@gmail.com
+
+buildDrafts: false
+buildFuture: true
+buildExpired: true
