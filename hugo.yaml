@@ -17,3 +17,33 @@ module:
   - source: /home/piotr/notes/home/Output/Blog
     target: content/posts
 
+mainSections:
+  - posts
+  - aboutme
+
+menu:
+  main:
+    - identifier: About
+      name: "About"
+      url: /aboutme/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: "Index"
+      name: "Index"
+      url: /archives/
+      weight: 30
+    - identifier: Search
+      name: 🔍
+      url: /search/
+      weight: 50
+
+
+# enable search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
