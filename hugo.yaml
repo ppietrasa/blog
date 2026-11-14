@@ -5,6 +5,14 @@ theme: PaperMod
 params:
   author: Piotr Pietraszkiewicz
   email: ppietrasa@gmail.com
+  homeInfoParams:
+    Title: Piotr Pietraszkiewicz
+    Content: Sharing my notes, documenting my learning and practicing writing
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/ppietrasa"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/piotr-pietraszkiewicz/"
 
 buildDrafts: false
 buildFuture: true
