@@ -47,3 +47,9 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      footnote: true
